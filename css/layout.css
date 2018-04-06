@@ -47,3 +47,12 @@
 }
 .flex-wrap{flex-wrap: wrap;
 }
+
+
+.card{
+    display:flex;
+    height:6em;
+    width:5em;
+    border:solid 1px black;
+    margin:10px;
+}
