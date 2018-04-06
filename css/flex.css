@@ -23,7 +23,7 @@
     height:auto;
 }
 
-.img-shopping-cart{
+.img-cart{
     display:flex;
     align-self: right;
 }
@@ -34,8 +34,19 @@
 
 .flex-art-boxes{
     display:flex;
-    padding-top:2em;
-    padding-bottom:2em;
-    padding-right:1em;
-    padding-left:1em;
+    height:600px;
+    width:300px;
+    padding:4em;
+}
+
+.headliner{
+    display:flex;
+    padding:10px;
+}
+
+.flex-carusell{
+    display:flex;
+    height:600px;
+    width:auto;
+    padding:5px;
 }
