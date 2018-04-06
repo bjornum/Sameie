@@ -30,8 +30,14 @@
 .justify-content-space-around{
     justify-content: space-around;
 }
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
 .align-self-center{
     align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
 }
 /* Flex*/
 .flex-row{
@@ -39,7 +45,12 @@
     flex-direction: row; 
     height: 100%;
 }
-
+.flex1{
+  flex:  1 1 auto ;
+}
+.flex-auto{
+    flex: auto;
+}
 .flex-column{
     display: flex;
     flex-direction: column;
