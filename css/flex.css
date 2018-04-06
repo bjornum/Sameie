@@ -1,0 +1,18 @@
+.flex-navbar{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    width:100%;
+    border:solid 1px black;
+}
+
+.flex-link-layout{
+    display:flex;
+    padding:4em;
+}
+
+.flex-link-position{
+    display:flex;
+    justify-content:center;
+    
+}
