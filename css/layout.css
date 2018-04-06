@@ -33,3 +33,17 @@
 .aligne-self-center{
     align-self: center;
 }
+/* Flex*/
+.flex-row{
+    display: flex;
+    flex-direction: row; 
+    height: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.flex-wrap{flex-wrap: wrap;
+}
