@@ -31,7 +31,9 @@
 .padding-10{
     padding:10px;
 }
-
+.padding-20{
+    padding: 20;
+}
 .flex-art-boxes{
     display:flex;
     height:600px;
@@ -49,6 +51,12 @@
     display:flex;
     padding:5px;
 
+}
+.flex-auto{
+    flex: auto;
+}
+.flex1{
+    flex: 1;
 }
 
 img { 
