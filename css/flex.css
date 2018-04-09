@@ -6,17 +6,13 @@
     border:solid 1px black;
 }
 
+
 .flex-link-layout{
     display:flex;
     padding:2em;
     align-self: center;
 }
 
-.flex-link-position{
-    display:flex;
-    justify-content:center;
-    
-}
 
 .img-logo{
     width:auto;
@@ -62,4 +58,19 @@
 img { 
     max-width: 100%; 
     height: auto; 
+}
+
+.flex-direction-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-link-position{
+    display:flex;
+    justify-content:center;   
+}
+
+.flex-direction-row{
+    display:flex;
+    flex-direction:row;
 }

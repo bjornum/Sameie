@@ -24,7 +24,7 @@
                     </div>                    
                     <div class="flex-auto">
                     </div>
-                    <button>Login</button>
+                    <button id="modalBtn">Login</button>
                 </div>
             </div>
 
@@ -65,15 +65,50 @@
             <div class="grid-middle-part green">
 
                 <!--login box-->
-                <div class="grid-login">
-                    <div>
+                <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
 
-                    </div>
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="flex-direction-row">
+        <div class="imgcontainer">
+        <img src="../img/avatar2.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div class="flex-direction-column">
+            <div class="container">
+                <div>
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
                 </div>
+                <div>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                </div>
+                <div></div>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+    
+                <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </div>
+    </div>    
+    </form>
+</div>
+                
 
                 <!--after login box-->
                 <div class="flex-carusell padding-10">
-                    <img src="../img/Solhaug.jpg" width="1800px">                    
+                        <img src="../img/Solhaug.jpg" width="1800px">                    
                 </div>
                 <div class="headliner justify-center">
                     <button class="red">
@@ -106,6 +141,6 @@
 
         </div>    
     </div>
-    
+    <script src="../js/login.js"></script>
 </body>
 </html>
